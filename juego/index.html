@@ -2,35 +2,40 @@
 <meta charset="utf-8">
 <html>
 <head>
-	<title>La teoria de Juego</title>
+	<title>Dilema del Prisionero</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-			<div class="col s12 center" style="margin-top: 10%">
-				<div class="container">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<main>
+		<div class="container">
+			<div id="principal" class="row">
+				<div class="col s12 center" style="margin-top: 10%">
+					<div class="container">
+						<h6 id="ronda">Ronda 1</h6>
+						<p id="prisionero_a">Decides cooperar o no.</p>
+						<p id="prisionero_b"></p>
+						<img src="../img/usuario.svg" style="width: 150px; height: 150px">
+					</div>
+				</div>
+				<div class="col s12" style="margin-top: 20px">
+					<div class="col s6 center" >
+						<a id="si" class="waves-effect waves-light btn">Cooperar</a>
+					</div>
+					<div class="col s6 center" >
+						<a id="no" class="waves-effect waves-light btn">No Cooperar</a>
+					</div>
 				</div>
 			</div>
-			<div class="col s12" style="margin-top: 10%">
-				<div class="col s6 center" >
-				<a id="si" class="waves-effect waves-light btn">SI</a>
-			</div>
-			<div class="col s6 center" >
-				<a id="no" class="waves-effect waves-light btn">NO</a>
-			</div>
-			</div>
 		</div>
-	</div>
-
+	</main>
+	
+	
+	<footer class="page-footer" style="background-color: #ffffff; color: #000; margin-bottom: 10px">
+		<h6 class="center">Desarrollado por: Alison Berchstoll de Oliveira y Álvaro José Amarilla</h6>
+	</footer>
+	
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
 	<script src="../js/script.js"></script>
